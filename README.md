@@ -7,8 +7,9 @@ This project uses the Stanford **Stanza** NLP library to perform lemmatization a
 ## Features
 - **Natural Language Parsing:** Automatically detects standard units (grams, kg, ml) as well as Turkish household units (yemek kaşığı, su bardağı, dilim, adet).
 - **Smart Typo Correction (Fuzzy Matching):** If an ingredient is misspelled (e.g., "domatez"), the system calculates its similarity with the database. If it's highly similar (≥ 80%), it autocorrects and includes it in the calculations. Otherwise, it suggests alternatives.
+- **Transparent Parsing Display:** Displays a clean data table of extracted ingredients and their calculated gram weights before computing nutritional values, ensuring accuracy and transparency.
 - **Portion Control:** Allows users to input the number of servings and calculates both total and per-serving nutritional values.
-- **Data Visualization:** Generates a pie chart to visualize the macronutrient distribution (Fat, Carbohydrates, Protein) of the recipe.
+- **Data Visualization:** Generates a pie chart to visualize the macronutrient distribution (Fat, Carbohydrates, Protein) of the recipe, dynamically omitting zero-value macros for a clean display.
 - **Interactive Notebook:** Ready to use locally or on Google Colab with an interactive UI built via `ipywidgets`.
 
 ## Installation
