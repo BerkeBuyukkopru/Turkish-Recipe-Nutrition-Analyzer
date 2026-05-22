@@ -134,3 +134,7 @@ Developed by **Berke Büyükköprü**.
 
 - GitHub: [BerkeBuyukkopru](https://github.com/BerkeBuyukkopru)
 - LinkedIn: [Berke Büyükköprü](https://www.linkedin.com/in/berke-buyukkopru/)
+
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
