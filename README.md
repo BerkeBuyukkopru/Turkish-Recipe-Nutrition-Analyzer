@@ -1,4 +1,4 @@
-# Turkish Recipe Nutritional Analyzer
+# Turkish Recipe Nutrition Analyzer
 
 A lightweight NLP-based Python project that analyzes Turkish recipe texts, extracts ingredients and their quantities, and calculates approximate nutritional values such as calories, fat, carbohydrates, protein, sugar, and fiber.
 
@@ -14,7 +14,7 @@ The project uses **Stanford Stanza** for Turkish natural language processing and
 
 ## About the Project
 
-Turkish Recipe Nutritional Analyzer is a small NLP-based recipe analysis project developed with Python. It processes Turkish recipe texts, detects ingredients and quantities, converts supported measurement units into approximate gram values, and calculates nutritional values using a local food database.
+Turkish Recipe Nutrition Analyzer is a small NLP-based recipe analysis project developed with Python. It processes Turkish recipe texts, detects ingredients and quantities, converts supported measurement units into approximate gram values, and calculates nutritional values using a local food database.
 
 The main goal of this project is to demonstrate how natural language processing can be used to extract structured ingredient data from unstructured Turkish recipe text.
 
@@ -47,6 +47,12 @@ The main goal of this project is to demonstrate how natural language processing 
 5. Extracted ingredients are matched with the local nutrition database.
 6. Total and per-serving nutritional values are calculated.
 7. Macronutrient distribution is visualized with a pie chart.
+
+## Prerequisites
+
+- Python 3.x
+- Jupyter Notebook, VS Code, or Google Colab
+- Internet connection for the first Stanford Stanza model download
 
 ## Installation
 
@@ -85,7 +91,9 @@ You can also review the main analysis logic from:
 run_analysis.py
 ```
 
-This file contains the same core logic used in the notebook. The project is primarily intended to be run through the notebook interface, but the Python file can be useful for understanding or reusing the implementation. Make sure the `Yemek_Veri_Tabanı.csv` file is located in the same project directory.
+This file contains the same core logic used in the notebook. The project is primarily intended to be run through the notebook interface, but the Python file can be useful for understanding or reusing the implementation.
+
+Make sure the `Yemek_Veri_Tabanı.csv` file is located in the same project directory.
 
 ## Example
 
