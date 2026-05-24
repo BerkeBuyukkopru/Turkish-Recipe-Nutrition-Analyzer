@@ -69,6 +69,12 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
+If you want to run the notebook locally and Jupyter is not already installed, install it as well:
+
+```bash
+pip install notebook ipykernel
+```
+
 > The first time you run the project, Stanford Stanza will download the Turkish language model automatically. This requires an internet connection and may take some time.
 
 ## Usage
@@ -100,7 +106,7 @@ Make sure the `Yemek_Veri_Tabanı.csv` file is located in the same project direc
 Example input:
 
 ```text
-2 yemek kaşığı zeytinyağı, 1 adet domates ve 100 gram tavuk göğsü
+2 yemek kaşığı zeytinyağı, 1 adet domates ve 100 gram bulgur
 ```
 
 The project detects the ingredients, converts the amounts into grams, matches them with the local nutrition database, and calculates the total nutritional values.
@@ -111,7 +117,7 @@ Example detected ingredients:
 |---|---:|
 | zeytinyağı | 30 g |
 | domates | 100 g |
-| tavuk göğsü | 100 g |
+| bulgur | 100 g |
 
 ## Dataset
 
