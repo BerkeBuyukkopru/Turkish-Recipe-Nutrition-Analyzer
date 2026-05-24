@@ -59,8 +59,8 @@ The main goal of this project is to demonstrate how natural language processing 
 Clone the repository:
 
 ```bash
-git clone https://github.com/BerkeBuyukkopru/Calories_and_Nutritional_Analysis_of_Recipes.git
-cd Calories_and_Nutritional_Analysis_of_Recipes
+git clone https://github.com/BerkeBuyukkopru/Turkish-Recipe-Nutrition-Analyzer.git
+cd Turkish-Recipe-Nutrition-Analyzer
 ```
 
 Install the required dependencies:
